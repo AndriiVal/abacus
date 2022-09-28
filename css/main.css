@@ -19,6 +19,12 @@ body {
   border: 2rem ridge #8B4513;
 }
 
+@media only screen and (max-width: 600px) {
+  .content {
+    height: calc(93% - 6rem);
+  }
+}
+
 .abacus {
   height: 100%;
   width: 100%;
